@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "495545197705",
+    "firebase_url": "https://lavalo-542c1.firebaseio.com",
+    "project_id": "lavalo-542c1",
+    "storage_bucket": "lavalo-542c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495545197705:android:6c7796df4a6840422f1258",
+        "android_client_info": {
+          "package_name": "com.lavalo.lavalo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495545197705-cug3147oc5ggh8lbu63it67ae437ua0i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lavalo.lavalo",
+            "certificate_hash": "d36671c814659cf8d123ac087a76cd2c3e6d05ca"
+          }
+        },
+        {
+          "client_id": "495545197705-hddcqrh45rou6mabsvtstskr35jah25a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lavalo.lavalo",
+            "certificate_hash": "b6eb0abf8a0cc74e7971a67246f9177e2df1a49a"
+          }
+        },
+        {
+          "client_id": "495545197705-fum8460n1517brt9se6pv3kakv2kts78.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lavalo.lavalo",
+            "certificate_hash": "011806c80feb58e3f654c8b8840c574bb0f7920b"
+          }
+        },
+        {
+          "client_id": "495545197705-hrnmcgq6d48vnpo0vpqq614q5rvp3plm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXDtiiclICQqvuQmUd-Gt6JCZbs0xJ3DA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495545197705-hrnmcgq6d48vnpo0vpqq614q5rvp3plm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495545197705:android:2814d64148160e4a2f1258",
+        "android_client_info": {
+          "package_name": "com.laver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495545197705-cfbhmrgr8hibrgetju6qiccshcfelit7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.laver",
+            "certificate_hash": "011806c80feb58e3f654c8b8840c574bb0f7920b"
+          }
+        },
+        {
+          "client_id": "495545197705-hrnmcgq6d48vnpo0vpqq614q5rvp3plm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXDtiiclICQqvuQmUd-Gt6JCZbs0xJ3DA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495545197705-hrnmcgq6d48vnpo0vpqq614q5rvp3plm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
