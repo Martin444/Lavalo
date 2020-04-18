@@ -1351,7 +1351,6 @@ class _DeliveryScreenState extends State<DeliveryScreen> {
                               ),
                             ],
                           )
-
                       ),
                       
                       // Container(
@@ -1428,25 +1427,30 @@ class _DeliveryScreenState extends State<DeliveryScreen> {
                       ),
 
                       Container(
-                        padding: EdgeInsets.only(left: 10.0, right: 10.0),
+                        padding: EdgeInsets.only(left: 10.0, right: 10.0, top: 2, bottom: 2),
                         margin: EdgeInsets.only(top: 20.0 ,left: 20.0, right: 20.0),
                         decoration: BoxDecoration(
                             color: Color(0xFFFFFFFF),
                             borderRadius: BorderRadius.all(Radius.circular(9.0)),
                             boxShadow: <BoxShadow>[
                               BoxShadow(
-                                  color: Colors.black12,
-                                  blurRadius: 15.0,
-                                  offset: Offset(0.0, 7.0)
+                                color: Colors.black12,
+                                blurRadius: 15.0,
+                                offset: Offset(0.0, 7.0)
                               )
                             ]
                         ),
 
                         child: new DropdownButton<String>(
+                            underline: Container(
+                              decoration: const BoxDecoration(
+                                border: Border(bottom: BorderSide(color: Colors.white))
+                              ),
+                            ),
                             value: _controllerBarrioOrder == null ? null : _controllerBarrioOrder,
                             icon: Icon(Icons.location_city),
                             hint: Container(
-                              padding: EdgeInsets.only(top: 25),
+                              padding: EdgeInsets.only(top: 18),
                               margin: EdgeInsets.only(right: 5),
                               height: MediaQuery.of(context).size.height / 11,
                               width: MediaQuery.of(context).size.width / 1.35,
@@ -1458,7 +1462,20 @@ class _DeliveryScreenState extends State<DeliveryScreen> {
                                   fontWeight: FontWeight.bold,
                                 ),),
                             ),
-                            items:<String>['Palermo', 'Colegiales','La Plata', 'Recoleta', 'Retiro', 'Belgrano', 'Balvanera', 'San Nicolás', 'Monserrat', 'Pto Madero', 'Almagro', 'Villa Crespo'].map<DropdownMenuItem<String>>((String value) {
+                            items:<String>[
+                              'Almagro',
+                              'Belgrano', 
+                              'Balvanera',
+                              'Colegiales',
+                              'Monserrat', 
+                              'Pto Madero',
+                              'Palermo',
+                              'La Plata', 
+                              'Recoleta', 
+                              'Retiro', 
+                              'San Nicolás',
+                              'Villa Crespo'
+                                 ].map<DropdownMenuItem<String>>((String value) {
                               return DropdownMenuItem<String>(
                                 value: value,
                                 child: Text(

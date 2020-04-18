@@ -127,7 +127,7 @@ class _AddOrdersState extends State<AddOrders> {
       alignment: Alignment.bottomLeft,
       margin: EdgeInsets.only(
         top: 60,
-        left: 30,
+        left: 20,
         bottom: 12
       ),
       child: Text(
